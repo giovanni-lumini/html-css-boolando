@@ -130,16 +130,19 @@ main{
     padding-right: 0.5rem;
 }
 
-.z-index2{
-    z-index:2;
+.img1{
     position: relative;
 }
 
-.z-index1{
-    z-index:1;
+.img2{
     position: absolute;
     top: 0;
     right: 0;
+    display: none;
+}
+
+.product:hover .img2{
+    display: block;
 }
 /* #endregion main */
 
