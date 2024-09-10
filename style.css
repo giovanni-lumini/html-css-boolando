@@ -17,9 +17,9 @@ img{
 
 
 /* #region debug */
-.debug .container-flex-main{
+/* .debug .container-flex-main{
     background-color: #ad2a2a;
-}
+} */
 /* #endregion debug */
 
 
@@ -47,17 +47,24 @@ img{
     display: flex;
     justify-content: center;
     background-color: white;
-    padding: 3rem;
+    padding-top: 2rem;
+}
+
+.space{
+    padding-bottom: 2rem;
 }
 
 .product{
     position: relative;
     width: 25%;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .bg-discount-red{
     position:absolute;
     background-color: red;
+    color: white;
     left: 0;
     bottom: 6rem;
     padding-top: 0.2rem;
@@ -69,6 +76,7 @@ img{
 .bg-sustainability{
     position:absolute;
     background-color: green;
+    color: white;
     left: 4rem;
     bottom: 6rem;
     padding-top: 0.2rem;
@@ -92,6 +100,20 @@ img{
 .delete-text-discount{
     text-decoration: line-through;
 }
+
+.bg-sustainability-near{
+    position:absolute;
+    background-color: green;
+    color: white;
+    left: 0;
+    bottom: 6rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
 
 /* #endregion main */
 
