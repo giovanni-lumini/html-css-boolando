@@ -15,20 +15,21 @@ img{
 
 /* #endregion general */
 
-
 /* #region debug */
 /* .debug .container-flex-main{
     background-color: #ad2a2a;
 } */
 /* #endregion debug */
 
-
 /* #region header */
 .container-flex-header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #ff6900;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
 }
 
 .container-flex-nav{
@@ -38,9 +39,14 @@ img{
 .nav-item{
     margin-left: 1rem;
     color: white;
+    font-weight: bold;
+}
+.nav-text{
+    margin-right: 1rem;
+    color: white;
+    font-weight: bold;
 }
 /* #endregion header */
-
 
 /* #region main */
 .container-flex-main{
@@ -112,12 +118,26 @@ img{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
-
-
-
 /* #endregion main */
 
-
 /* #region footer */
+.container-flex-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+}
 
+.title-foot-white{
+    color: white;
+}
+
+.text-foot-white{
+    color: white;
+    font-size: 0.7rem;
+    margin-right: 0.7rem;
+}
 /* #endregion footer */
