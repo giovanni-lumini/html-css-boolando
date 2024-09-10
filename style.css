@@ -8,11 +8,14 @@ a{
     text-decoration: none;
     color: white;
 }
+
 /* #endregion general */
 
 
 /* #region debug */
-
+.debug .container-flex-main{
+    background-color: #ad2a2a;
+}
 /* #endregion debug */
 
 
@@ -32,13 +35,36 @@ a{
     margin-left: 1rem;
     color: white;
 }
-
-
-
 /* #endregion header */
 
 
 /* #region main */
+.container-flex-main{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.item-main{
+    height: 400px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.text-item-main{
+    margin-left: 1rem;
+}
+
+.color-text-discount{
+    color: red;
+}
+
+.delete-text-discount{
+    text-decoration: line-through;
+}
+
+
 
 /* #endregion main */
 
