@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 a{
     text-decoration: none;
@@ -12,7 +13,6 @@ a{
 img{
     max-width: 100%;
 }
-
 /* #endregion general */
 
 /* #region debug */
@@ -31,7 +31,11 @@ img{
     padding-left: 9.5rem;
     padding-right: 9.5rem;
 }
-
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
 .container-flex-nav{
     display: flex;
 }
@@ -49,6 +53,10 @@ img{
 /* #endregion header */
 
 /* #region main */
+main{
+    padding-top: 5rem;
+}
+
 .container-flex-main{
     display: flex;
     justify-content: center;
